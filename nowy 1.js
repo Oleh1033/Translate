@@ -851,11 +851,11 @@ export const global_locale = {
         },
         ROW_70: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 70, 71 lub 74, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму до одного з цих полів: 70, 71 або 74, то всі решта в тому рядку повинні бути заповнені. Якщо твій PIT не містить жодної суми - впиши 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 70, 71 lub 74, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму до одного з цих полів: 70, 71 або 74, то всі решта в тому рядку повинні бути заповнені. Якщо твій PIT не містить жодної суми - впиши 0.',
           [genderEnum.neutral]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 70, 71 lub 74, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо вписана сума до одного з цих полів: 70, 71 або 74, то всі решта в тому рядку повинні бути заповнені. Якщо твій PIT не містить жодної суми - впиши 0.',
         },
         CONTRIBUTIONS_75: {
           [genderEnum.male]:
