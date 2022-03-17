@@ -859,27 +859,27 @@ export const global_locale = {
         },
         CONTRIBUTIONS_75: {
           [genderEnum.male]:
-            'Jeśli uzupełniłeś dowolny wiersz rozpoczynający się od pól 29, 34, 47, 51, 59, 62 lub 70 to pola 75 i 79 muszą być uzupełnione.',
+            'Якщо ти заповнив будь який рядок, що починається з полів 29, 34, 47, 51, 59, 62 або 70, то поля 75 і 79 теж потрібно заповнити.',
           [genderEnum.female]:
-            'Jeśli uzupełniłaś dowolny wiersz rozpoczynający się od pól 29, 34, 47, 51, 59, 62 lub 70 to pola 75 i 79 muszą być uzupełnione.',
+            'Якщо ти заповнила будь який рядок, що починається з полів 29, 34, 47, 51, 59, 62 або 70, то поля 75 і 79 теж потрібно заповнити.',
           [genderEnum.neutral]:
-            'Jeśli uzupełniono dowolny wiersz rozpoczynający się od pól 29, 34, 47, 51, 59, 62 lub 70 to pola 75 i 79 muszą być uzupełnione.',
+            'Якщо заповнено будь який рядок, що починається з полів 29, 34, 47, 51, 59, 62 або 70, то поля 75 і 79 теж потрібно заповнити.',
         },
         CONTRIBUTIONS_76: {
           [genderEnum.male]:
-            'Jeśli uzupełniłeś dowolny wiersz rozpoczynający się od pól 36, 41 lub 55 to pola 76 i 79 muszą być uzupełnione.',
+            'Якщо ти заповнив будь який рядок, що починається з полів 36, 41 або 55, то поля 76 i 79 теж потрібно заповнити.',
           [genderEnum.female]:
-            'Jeśli uzupełniłaś dowolny wiersz rozpoczynający się od pól 36, 41 lub 55 to pola 76 i 79 muszą być uzupełnione.',
+            'Якщо ти заповнила будь який рядок, що починається з полів 36, 41 або 55, то поля 76 i 79 теж потрібно заповнити.',
           [genderEnum.neutral]:
-            'Jeśli uzupełniono dowolny wiersz rozpoczynający się od pól 36, 41 lub 55 to pola 76 i 79 muszą być uzupełnione.',
+            'Якщо заповнено будь який рядок, що починається з полів 36, 41 або 55, то поля 76 і 79 теж потрібно заповнити.',
         },
         CONTRIBUTIONS_77: {
           [genderEnum.male]:
-            'Jeśli uzupełniłeś pola 92, 93 i 94 to pola 77 i 79 muszą być uzupełnione.',
+            'Якщо ти заповнив поля 92, 93 і 94, то потрібно заповнити поля 77 і 79.',
           [genderEnum.female]:
-            'Jeśli uzupełniłaś pola 92, 93 i 94 to pola 77 i 79 muszą być uzupełnione.',
+            'Якщо ти заповнила поля 92, 93 і 94, то потрібно заповнити поля 77 і 79.',
           [genderEnum.neutral]:
-            'Jeśli uzupełniono pola 92, 93 i 94 to pola 77 i 79 muszą być uzupełnione.',
+            'Якщо поля 92, 93 і 94 заповнені, то потрібно заповнити поля 77 і 79.',
         },
       },
     },
