@@ -656,198 +656,198 @@ export const global_locale = {
       },
     },
     placeholders: {
-      [validatorNamesEnum.email]: 'Wpisz adres e-mail',
-      [validatorNamesEnum.first_name]: 'Wpisz swoje imię',
-      [validatorNamesEnum.bank_account_first_name]: 'Wpisz swoje imię',
-      [validatorNamesEnum.last_name]: 'Wpisz swoje nazwisko',
-      [validatorNamesEnum.bank_account_last_name]: 'Wpisz swoje nazwisko',
-      [validatorNamesEnum.street]: 'Zacznij wpisywać ulicę',
-      [validatorNamesEnum.building_number]: 'Wpisz numer budynku',
-      [validatorNamesEnum.apartment_number]: 'Wpisz numer lokalu',
-      [validatorNamesEnum.income]: 'Wpisz przychód',
+      [validatorNamesEnum.email]: 'Впиши електронну адресу',
+      [validatorNamesEnum.first_name]: 'Впиши своє ім'я',
+      [validatorNamesEnum.bank_account_first_name]: 'Впиши своє ім'я',
+      [validatorNamesEnum.last_name]: 'Впиши своє прізвище',
+      [validatorNamesEnum.bank_account_last_name]: 'Впиши своє прізвище',
+      [validatorNamesEnum.street]: 'Почни вписувати вулицю',
+      [validatorNamesEnum.building_number]: 'Впиши номер будинку',
+      [validatorNamesEnum.apartment_number]: 'Впиши номер квартири',
+      [validatorNamesEnum.income]: 'Впиши дохід',
       [validatorNamesEnum.bank_account_number]:
         'PL 12 3456 7890 1234 5678 9012 3456',
       [validatorNamesEnum.bank_account_currency]:
-        'Zacznij wpisywać walutę',
+        'Почни вписувати валюту',
     },
-    unknown_error: 'Wystąpił nieznany błąd',
+    unknown_error: 'Сталася невідома помилка',
     error: {
       defaults: {
-        required: 'Pole wymagane',
-        minLength: 'Treść pola za krótka',
-        maxLength: 'Treść pola za długa',
-        pattern: 'Nieprawidłowa forma',
-        format: 'Nieprawidłowa forma',
+        required: 'Обов'язкове поле',
+        minLength: 'Вміст поля занадто короткий',
+        maxLength: 'Вміст поля занадто довгий',
+        pattern: 'Недійсна форма',
+        format: 'Недійсна форма',
       },
       api: {
-        internal_api_error: 'Błąd wewnętrzny serwera. Spróbuj ponownie.',
-        network_issues: 'Problem z siecią. Spróbuj ponownie.',
-        already_logged: 'Jesteś już zalogowany na innym urządzeniu.',
+        internal_api_error: 'Внутрішня помилка сервера. Спробуй ще раз.',
+        network_issues: 'Проблема з мережею. Спробуй ще раз.',
+        already_logged: 'Ти вже ввійшов на іншому пристрої.',
         [ErrorEnum.global.internal_error]:
-          'Błąd wewnętrzny serwera. Spróbuj ponownie.',
-        [ErrorEnum.global.wrong_json_body]: 'Niepoprawny format JSON',
-        [ErrorEnum.global.validator_error]: 'Błąd walidacji',
-        [ErrorEnum.global.missing_action]: 'Nieprawidłowa akcja',
-        [ErrorEnum.global.not_found]: '404 Nie znaleziono',
-        [ErrorEnum.global.access_denied]: 'Brak dostępu',
+          'Внутрішня помилка сервера. Спробуй ще раз.',
+        [ErrorEnum.global.wrong_json_body]: 'Недійсний формат JSON',
+        [ErrorEnum.global.validator_error]: 'Помилка перевірки',
+        [ErrorEnum.global.missing_action]: 'Недійсна дія',
+        [ErrorEnum.global.not_found]: '404 Не знайдено',
+        [ErrorEnum.global.access_denied]: 'Відсутність доступу',
         [ErrorEnum.global.not_updated]:
-          'Nie zaktualizowano. Spróbuj ponownie',
-        [ErrorEnum.global.wrong_token]: 'Nieprawidłowy token',
-        [ErrorEnum.global.expired_token]: 'Token wygasł',
-        [ErrorEnum.global.already_done]: 'Akcja już wykonana',
-        [ErrorEnum.global.exclusive_lock]: 'Zamknięta na wyłączność',
-        [ErrorEnum.global.wrong_twofa]: 'Niepoprawna twofa',
-        [ErrorEnum.global.twofa_missing]: 'Brak twofa',
+          'Не оновлено. спробуйте ще раз',
+        [ErrorEnum.global.wrong_token]: 'Неприпустимий токен',
+        [ErrorEnum.global.expired_token]: 'Термін дії токена закінчився',
+        [ErrorEnum.global.already_done]: 'Дія вже виконана',
+        [ErrorEnum.global.exclusive_lock]: 'Закрито для ексклюзивного використання',
+        [ErrorEnum.global.wrong_twofa]: 'Неправильна двофакторна аутентифікація',
+        [ErrorEnum.global.twofa_missing]: 'Брак двофакторної аутентифікації',
         [ErrorEnum.global.wrong_login]:
-          'Nieprawidłowy login. Spróbuj ponownie',
+          'Невірний логін. Спробуй ще раз',
         [ErrorEnum.global.wrong_password]:
-          'Nieprawidłowe hasło. Spróbuj ponownie',
+          'Неправильний пароль. Спробуй ще раз',
         [ErrorEnum.global.wrong_login_or_password]:
-          'Niepoprawny e-mail lub hasło.',
-        [ErrorEnum.global.account_disabled]: 'Konto zablokowane',
-        [ErrorEnum.global.email_required]: 'Adres e-mail jest wymagany',
+          'Неправильна адреса електронної пошти або пароль.',
+        [ErrorEnum.global.account_disabled]: 'Заблокований обліковий запис',
+        [ErrorEnum.global.email_required]: 'Необхідна адреса електронної пошти',
         [ErrorEnum.global.pin_not_same]:
-          'Kody PIN nie są takie same. Spróbuj ponownie',
-        [ErrorEnum.global.send_mail_error]: 'Błąd wysyłki maila',
-        [ErrorEnum.global.wrong_affiliate_id]: 'Niepoprawne id afiliacji',
+          'PIN-коди не однакові. Спробуй ще раз',
+        [ErrorEnum.global.send_mail_error]: 'Помилка надсилання електронної пошти',
+        [ErrorEnum.global.wrong_affiliate_id]: 'Невірний ідентифікатор приналежності',
         [ErrorEnum.global.pin_same]:
-          'Kod PIN musi różnić się od poprzedniego.',
+          'PIN-код повинен відрізнятися від попереднього.',
         [ErrorEnum.global.wrong_affiliate_code]:
-          'Niepoprawny kod polecający. Spróbuj ponownie',
+          'Недійсний реферальний код. Спробуй ще раз',
         [ErrorEnum.global.terms_accept_required]:
-          'Niepoprawny kod polecający. Spróbuj ponownie',
+          'Недійсний реферальний код. Спробуй ще раз',
       },
       email: {
-        required: 'Adres e-mail wymagany',
-        format: 'Błędny format maila',
+        required: 'Необхідна адреса електронної пошти',
+        format: 'Неправильний формат електронної пошти',
       },
       pin: {
-        required: 'PIN wymagany',
-        minLength: 'PIN powinien składać się z 6 cyfr',
-        maxLength: 'PIN powinien składać się z 6 cyfr',
-        pattern: 'PIN powinien składać się wyłącznie z cyfr',
+        required: 'Необхідний PIN-код',
+        minLength: 'PIN-код повинен складатися з 6 цифр',
+        maxLength: 'PIN-код повинен складатися з 6 цифр',
+        pattern: 'PIN-код повинен складатися лише з цифр',
       },
       confirm_pin: {
-        different: 'Kody PIN nie są takie same. Spróbuj ponownie.',
+        different: 'PIN-коди не однакові. Спробуй ще раз.',
       },
       pesel: {
-        format: 'Numer PESEL nie jest poprawny',
+        format: 'Номер PESEL неправильний',
       },
       init_errors: {
-        children_missing: 'children are missing',
-        postal_code_missing: 'postal_code_is_missing',
-        postal_code_or_town_missing: 'postal_code or town_id is missing',
+        children_missing: 'Бракує дітей',
+        postal_code_missing: 'Бракує поштового коду',
+        postal_code_or_town_missing: 'Бракує поштового коду або коду міста',
       },
     },
     pit11: {
       headers: {
-        ROW: 'Uzupełnij kwotę',
-        CONTRIBUTIONS: 'Uzupełnij kwotę składki',
+        ROW: 'Заповніть суму',
+        CONTRIBUTIONS: 'Заповніть суму внеску',
       },
       delete_pit: {
         [genderEnum.male]:
-          'Jeżeli zdecydujesz się na usunięcie danych z PIT, wypełnione na tym etapie dane zostaną utracone. Nie będziesz mógł cofnąć tej opercji.',
+          'Якщо ти вирішиш видалити дані з PIT, дані, заповнені на цьому етапі, будуть втрачені. Ти не зможеш скасувати цю операцію.',
         [genderEnum.female]:
-          'Jeżeli zdecydujesz się na usunięcie danych z PIT, wypełnione na tym etapie dane zostaną utracone. Nie będziesz mogła cofnąć tej opercji.',
+          'Якщо ти вирішиш видалити дані з PIT, дані, заповнені на цьому етапі, будуть втрачені. Ти не зможеш скасувати цю операцію.',
         [genderEnum.neutral]:
-          'Jeżeli zdecydujesz się na usunięcie danych z PIT, wypełnione na tym etapie dane zostaną utracone. Nie będzie można cofnąć tej opercji.',
+          'Якщо ти вирішиш видалити дані з PIT, дані, заповнені на цьому етапі, будуть втрачені. Ти не зможеш скасувати цю операцію.',
       },
       descriptions: {
         ROW_29: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 29, 30 lub 33, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму в одне з цих полів: 29, 30 або 33, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 29, 30 lub 33, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму в одне з цих полів: 29, 30 або 33, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.neutral]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 29, 30 lub 33, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо сума була введена в одне з цих полів: 29, 30 або 33, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
         },
         ROW_34: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 34, 35 lub 33, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму в одне з цих полів: 34, 35 або 33, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 34, 35 lub 33, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму в одне з цих полів: 34, 35 або 33, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.neutral]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 34, 35 lub 33, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо сума була введена в одне з цих полів: 34, 35 або 33, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
         },
         ROW_36: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 36, 37 lub 40, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму в одне з цих полів: 36, 37 або 40, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 36, 37 lub 40, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму в одне з цих полів: 36, 37 або 40, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.neutral]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 36, 37 lub 40, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо сума була введена в одне з цих полів: 36, 37 або 40, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
         },
         ROW_41: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 41, 42 lub 40, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму в одне з цих полів: 41, 42 або 40, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 41, 42 lub 40, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму в одне з цих полів: 41, 42 або 40, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.neutral]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 41, 42 lub 40, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо сума була введена в одне з цих полів: 41, 42 або 40, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
         },
         ROW_43: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 43 lub 46, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму в одне з цих полів: 43 або 46, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 43 lub 46, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму в одне з цих полів: 43 або 46, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.neutral]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 43 lub 46, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо сума була введена в одне з цих полів: 43 або 46, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
         },
         ROW_47: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 47, 48 lub 50, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму в одне з цих полів: 47, 48 або 50, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 47, 48 lub 50, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму в одне з цих полів: 47, 48 або 50, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.neutral]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 47, 48 lub 50, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо сума була введена в одне з цих полів: 47, 48 або 50, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
         },
         ROW_51: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 51, 52 lub 54, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму в одне з цих полів: 51, 52 або 54, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 51, 52 lub 54, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму в одне з цих полів: 51, 52 або 54, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.neutral]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 51, 52 lub 54, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо сума була введена в одне з цих полів: 51, 52 або 54, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
         },
         ROW_55: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 55, 56 lub 58, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму в одне з цих полів: 55, 56 або 58, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 55, 56 lub 58, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму в одне з цих полів: 55, 56 або 58, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.netural]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 55, 56 lub 58, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо сума була введена в одне з цих полів: 55, 56 або 58, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація не містить жодної суми - введи 0.',
         },
         ROW_59: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 59 lub 61, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму в одне з цих полів: 59 або 61, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 59 lub 61, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму в одне з цих полів: 59 або 61, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.netural]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 59 lub 61, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо сума була введена в одне з цих полів: 59 або 61, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
         },
         ROW_62: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 62, 63 lub 61, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму в одне з цих полів: 62, 63 або 61, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 62, 63 lub 61, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму в одне з цих полів: 62, 63 або 61, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.neutral]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 62, 63 lub 61, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо сума введена в одне з цих полів: 62, 63 або 61, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
         },
         ROW_64: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 64 lub 66, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму в одне з цих полів: 64 або 66, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 64 lub 66, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму в одне з цих полів: 64 або 66, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.neutral]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 64 lub 66, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо сума була введена в одне з цих полів: 64 або 66, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
         },
         ROW_67: {
           [genderEnum.male]:
-            'Jeśli wpisałeś kwotę do jednego z tych pól: 67 lub 69, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписав суму в одне з цих полів: 67 або 69, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.female]:
-            'Jeśli wpisałaś kwotę do jednego z tych pól: 67 lub 69, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо ти вписала суму в одне з цих полів: 67 або 69, усі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
           [genderEnum.neutral]:
-            'Jeśli wpisano kwotę do jednego z tych pól: 67 lub 69, to wszystkie pozostałe w tym wierszu muszą być uzupełnione. Jeśli Twój PIT nie zawiera tu żadnej kwoty - wpisz 0.',
+            'Якщо сума була введена в одне з цих полів: 67 або 69, то всі інші в цьому рядку необхідно заповнити. Якщо твоя податкова декларація з PIT не містить жодної суми – введи 0.',
         },
         ROW_70: {
           [genderEnum.male]:
